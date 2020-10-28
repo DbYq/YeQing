@@ -1,0 +1,3 @@
+﻿  上机.c
+C:\我的初学代码\YeQing\上机训练\上机.c(46,8): warning C4477: “scanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 1 拥有了类型“int”
+  上机训练.vcxproj -> C:\我的初学代码\YeQing\上机训练\Debug\上机训练.exe
