@@ -1,5 +1,4 @@
 //《从大到小输出三个数》。
-#define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 //int main()
 //{
@@ -77,23 +76,26 @@
 
 //<5>.打印100~200间的素数
 //试除法
-//int main()
-//{
-//	int i = 0;
-//	for (i = 100; i <= 200; i++)
-//	{
-//		int j = 0;
-//		for (j = 2; j < i; j++)
-//		{
-//			if (i % j == 0)
-//				break;
-//		}
-//		if (j == i)
-//		{
-//			printf("%d ", i);
-//		}
-//	}
-//	return 0;
-//}
+int main()
+{
+	int i = 0;
+	for (i = 100; i <= 200; i++)
+	{
+		int j = 0;
+		for (j = 2; j < i; j++)
+		{
+			if (i % j == 0)
+			{
+				break;
+			}
+		}
+		if (j == i)
+		{
+			printf("%d ", i);
+		}
+	}
+	return 0;
+}
 //优化    第八集五十三分钟
 
+//九集145：38

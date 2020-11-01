@@ -69,13 +69,15 @@ int main()
 	for (i = 100; i <= 200; i++)
 	{
 		int j = 0;
-		for (j = 2; j <= i; j++)
+		for (j = 2; j < i; j++)
 		{
 			if (0 == i % j)
 				break;
 		}
 		if (j == i)
+		{
 			printf("%d ", i);
+		}
 	}
 	return 0;
 }
