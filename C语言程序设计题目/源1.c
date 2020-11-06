@@ -16,13 +16,63 @@
 //	return 0;
 //}
 //第二题
+//int main()
+//{
+//	int i = 0;
+//	for (i = 100; i <= 200; i++)
+//	{
+//		int j = 0;
+//		for (j = 2; j < i; j++)
+//		{
+//			if (i % j == 0)
+//			{
+//				break;
+//			}
+//		}
+//		if (j == i)
+//		{
+//			printf("%d ", i);
+//		}
+//	}
+//	return 0;
+//}
+//第三题
+//int main()
+//{
+//	int m = 0;
+//	int n = 0;
+//	int z = 0;
+//	scanf("%d %d", &m, &n);
+//	while (z=m % n)
+//	{
+//		m = n;
+//		n = z;
+//	}
+//	printf("%d\n", n);
+//	return 0;
+//}
+//第四题
+//int main()
+//{
+//	int i = 0;
+//	int sum = 0;
+//	for (i = 1; i <= 100; i++)
+//	{
+//		sum = sum + i;
+//	}
+//	printf("%d", sum);
+//	return 0;
+//}
+//第五题
 int main()
 {
 	int i = 0;
-	for (i = 100; i <= 200; i++)
+	for (i = 1900; i <= 2000; i++)
 	{
-		int j = 0;
-		for (j = 2; j < i; j++)
-
+		if ((i % 4 == 0 && i % 100 != 0) || (i % 100 == 0 && i % 400 == 0))
+		{
+			printf("%d ", i);
+		}
 	}
+	return 0;
 }
